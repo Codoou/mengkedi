@@ -1,0 +1,39 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-bar {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-bar>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgray;
+    top: 0;
+}
+
+.navigation-bar>ul>li {
+    float: left;
+}
+
+.navigation-bar>ul>li>a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation-toggle-side {}
+
+.navigation-title {}
+
+.navigation-search {}
+
+.navigation-right {}
