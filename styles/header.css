@@ -42,7 +42,22 @@ body {
     font-weight: bolder;
 }
 
-.navigation-toggle-side {}
+.navigatoin-icon {}
+
+.navigation-toggle-side {
+    padding: 5px;
+    margin: 5px;
+    border: 1px white solid;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.navigation-toggle-side>div {
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    margin: 5px 0;
+}
 
 .navigation-search {}
 
