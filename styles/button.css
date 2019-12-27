@@ -1,0 +1,77 @@
+/*
+    Button
+*/
+
+.button {
+    border: none;
+    padding: 18px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button-small {
+    border: none;
+    padding: 18px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5%;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button:hover {
+    opacity: 95%;
+}
+
+.button-small:hover {
+    opacity: 95%;
+}
+
+.button-gray {
+    background-color: darkgray;
+    color: black;
+}
+
+.button-green {
+    background-color: green;
+    color: white;
+}
+
+.button-red {
+    background-color: red;
+    color: white;
+}
+
+.button-blue {
+    background-color: blue;
+    color: white;
+}
+
+.button-gray-gradient {
+    background: linear-gradient(180deg, gray 0%, darkgray 60%, darkgray 100%);
+    color: black;
+}
+
+.button-green-gradient {
+    background: linear-gradient(180deg, darkgreen 0%, green 60%, green 100%);
+    color: white;
+}
+
+.button-red-gradient {
+    background: linear-gradient(180deg, darkred 0%, red 60%, red 100%);
+    color: white;
+}
+
+.button-blue-gradient {
+    background: linear-gradient(180deg, darkblue 0%, blue 60%, blue 100%);
+    color: white;
+}
