@@ -30,9 +30,19 @@ body {
     text-decoration: none;
 }
 
-.navigation-toggle-side {}
+.navigation-title {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 5px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-weight: bolder;
+}
 
-.navigation-title {}
+.navigation-toggle-side {}
 
 .navigation-search {}
 
